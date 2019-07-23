@@ -1,0 +1,22 @@
+package myselenium_11;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeTest;
+public class testcase {
+	public WebDriver driver;
+
+public String browser="chrome";
+@Test
+public void testCase() {
+	driver=Drivers.getdriver(browser);
+	driver.get("https://www.goibibo.com/");
+	driver.findElement(By.xpath("//*[@id=\"get_sign_in\"]")).click
+	driver.findElement(By.xpath("//*[@id=\"authMobile\"]").sendKeys("7411160476");
+	driver.switchTo().defaultContent();
+	driver.findElement(By.xpath("//*[@id=\"authOverlay\"]/div/a")).click();
+
+}
+}

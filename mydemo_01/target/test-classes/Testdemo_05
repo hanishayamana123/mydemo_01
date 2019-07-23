@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Tc01">
+    <classes>
+      <class name="mydemo_01.mydemo_01.Testdemo_05"/>
+      <methods>
+      <include name="method1"><
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

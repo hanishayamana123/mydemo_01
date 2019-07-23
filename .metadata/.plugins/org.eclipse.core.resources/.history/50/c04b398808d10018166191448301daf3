@@ -1,0 +1,33 @@
+package myselenium_11;
+
+
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+  
+
+  
+  
+  
+  
+  
+  public class testrun {
+	
+       @Test
+	  
+  
+	  public void test() throws InterruptedException{
+
+
+	
+
+
+
+
+
+	Driver.get("http://www.flipkart.com");
+	Driver.findElement(By.xpath("/html/body/div[2]/div/div/button")).click
+	Driver.findElement(By.xpath("//*[@id=\"container\"]/div/header/div[1]/div/div[2]/form/div/div[1]/div/input").sendKeys("Watches");
+	Driver.findElement(By.xpath("//*[@id=\"container\"]/div/header/div[1]/div/div[2]/form/div/div[2]/button").click
+}
+

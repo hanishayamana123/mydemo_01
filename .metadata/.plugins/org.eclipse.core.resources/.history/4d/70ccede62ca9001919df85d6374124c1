@@ -1,0 +1,7 @@
+import org.testng.annotations.Test;
+
+public class Test_03 {
+  @Test
+  public void f() {
+  }
+}

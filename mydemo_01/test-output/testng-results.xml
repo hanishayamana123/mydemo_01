@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+    <groups>
+    </groups>
+    <test name="Tc_01" duration-ms="47" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+      <class name="mydemo_01.mydemo_01.Testdemo1_05">
+        <test-method status="PASS" signature="method1()[pri:0, instance:mydemo_01.mydemo_01.Testdemo1_05@cc285f4]" name="method1" duration-ms="16" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:mydemo_01.mydemo_01.Testdemo1_05@cc285f4]" name="method3" duration-ms="0" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- mydemo_01.mydemo_01.Testdemo1_05 -->
+    </test> <!-- Tc_01 -->
+    <test name="Tc_02" duration-ms="31" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+      <class name="mydemo_01.mydemo_01.Testdemo1_05">
+        <test-method status="PASS" signature="method2()[pri:0, instance:mydemo_01.mydemo_01.Testdemo1_05@6a41eaa2]" name="method2" duration-ms="16" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:mydemo_01.mydemo_01.Testdemo1_05@6a41eaa2]" name="method1" duration-ms="0" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:mydemo_01.mydemo_01.Testdemo1_05@6a41eaa2]" name="method3" duration-ms="0" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- mydemo_01.mydemo_01.Testdemo1_05 -->
+      <class name="mydemo_01.mydemo_01.Testdemo2_05">
+        <test-method status="PASS" signature="method5()[pri:0, instance:mydemo_01.mydemo_01.Testdemo2_05@7cd62f43]" name="method5" duration-ms="0" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:mydemo_01.mydemo_01.Testdemo2_05@7cd62f43]" name="method4" duration-ms="0" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:mydemo_01.mydemo_01.Testdemo2_05@7cd62f43]" name="method6" duration-ms="0" started-at="2019-07-19T11:23:07Z" finished-at="2019-07-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- mydemo_01.mydemo_01.Testdemo2_05 -->
+    </test> <!-- Tc_02 -->
+  </suite> <!-- Suite -->
+</testng-results>

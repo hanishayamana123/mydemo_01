@@ -1,0 +1,25 @@
+package myselenium_11;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+
+public class Basic {
+	@Test
+	
+	public void testCase() {
+		
+		System.setProperty("webdriver.ie.driver","C:\\Users\\training_d2.03.07\\Desktop\\Sumit Wankhede\\Selenium Softwares\\Selenium Softwares\\SeleniumDrivers\\IEDriverServer.exe");
+		WebDriver driver =new InternetExplorerDriver();
+		driver.get("http://www.google.com");
+		
+	}
+public void openBrowser()throws InterruptedException{
+	driver=Drivers.getdriver(browser);
+	driver.manage().window().maximize();
+	driver.manage().timeouts().implicityWait(20,TimeUnit.SECONDS);
+	driver.get("http://www.google.com");
+	Thread.sleep(2000));
+}
+}

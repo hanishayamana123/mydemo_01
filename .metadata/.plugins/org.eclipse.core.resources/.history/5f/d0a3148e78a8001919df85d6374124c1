@@ -1,0 +1,21 @@
+package mydemo_01.mydemo_01;
+
+import org.testng.annotations.Test;
+
+public class Myprogram_04Test {
+  @Test
+  public void Login() {
+	  System.out.println("code for login");
+  }
+  public void Logout() {
+	  System.out.println("code for logout");
+  }
+  public void Register()
+  {
+	  System.out.println("code for register");
+  }
+  public void Addtocart()
+  {
+	  System.out.println("coe for add to cart");
+  }
+}

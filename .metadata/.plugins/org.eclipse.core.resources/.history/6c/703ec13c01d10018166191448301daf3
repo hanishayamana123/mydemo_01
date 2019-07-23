@@ -1,0 +1,6 @@
+package myselenium_11;
+
+public class openbrowser() throws Interrupted Exception{
+	
+
+}

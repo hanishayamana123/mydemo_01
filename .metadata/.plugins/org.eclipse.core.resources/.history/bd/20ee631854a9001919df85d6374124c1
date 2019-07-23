@@ -1,0 +1,28 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class Test_07 {
+	WebDriver driver;
+  @Test
+  public void f() {
+	  System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver_win32\\chromedriver.exe" );
+		driver=new ChromeDriver();
+		driver.get("http://10.232.237.143:443/TestMeApp");
+		WebElement t1=driver.findElement(By.xpath("//span[text()='AboutUs']"));
+		Actions act1=new Actions(driver);
+		act1.moveToElement(t1).build().perform();
+		WebElement t2=driver.findElement(By.xpath("//span[text()='Our Offices']"));
+		Actions act2=new Actions(driver);
+		act2.moveToElement(t2).build().perform();
+		WebElement t3=driver.findElement(By.xpath("//span[text()='Bangalore']"));
+		Actions act3=new Actions(driver);
+		act2.moveToElement(t3).build().perform();
+		
+		
+		
+  }
+}
